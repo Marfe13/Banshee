@@ -1,0 +1,5 @@
+IdCliente;nombre;tipo
+101;Pepito;1
+102;Carlos;2
+103;Sech;1
+104;Diego;1
