@@ -74,23 +74,4 @@ public class Cancion {
     return new Cancion(this.nombre, this.autor,this.genero, this.IdCancion);
   }
   
-  public void leerDato(ArrayList<Cancion> Lista){
-      Lista.forEach(item->{
-          System.out.println("-----------------------------");
-          System.out.println("Nombre de la Cancion: "+item.nombre);
-          System.out.println("Autor: "+item.autor);
-          
-          generosMusicales llamada = new generosMusicales();
-          String[] vector = llamada.prueba();
-          for(int i=0; i < 25; i++){
-              int copia = i+1;
-              if(copia == item.genero){
-                  System.out.println("Genero Musical: "+ vector[i]);
-                  break;
-              }
-          }
-          System.out.println("ID: "+item.IdCancion);
-          System.out.println("-----------------------------");
-      });
-  }
 }

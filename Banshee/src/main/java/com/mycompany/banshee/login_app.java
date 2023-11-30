@@ -157,6 +157,8 @@ public class login_app extends javax.swing.JFrame {
             JOptionPane.showMessageDialog(null, "Porfavor introduzca contraseña");
         }
         else if(jtuser.getText().contains("usuario") && jpassword.getText().contains("contraseña")){
+           Menu gui = new Menu();
+           gui.setVisible(true);
            dispose();
            setVisible(false);
         }

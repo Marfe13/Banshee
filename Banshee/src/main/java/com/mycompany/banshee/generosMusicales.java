@@ -1,6 +1,6 @@
 package com.mycompany.banshee;
 
-public class generosMusicales {
+public abstract class generosMusicales {
     String [] lista = new String[25];
     
     public String[] prueba() {
